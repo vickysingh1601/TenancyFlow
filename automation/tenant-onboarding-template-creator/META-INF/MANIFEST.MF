@@ -1,0 +1,4 @@
+#!UTF8
+ArcSight-Version=7.6.0.2729.0
+Creation-Timestamp=2023.07.05 09.12.40.649 GMT
+Packages=Tenant_Template.xml

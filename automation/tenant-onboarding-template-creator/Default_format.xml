@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE archive SYSTEM "../../schema/xml/archive/arcsight-archive.dtd">
+<archive buildVersion="7.6.0.2729.0" buildTime="2021-12-16T14:42:58" user="admin" createTime="12-13-2023_13:41:42.874">
+   <ArchiveCreationParameters>
+      <action>insert</action>
+      <excludeIfNotIncluded>
+         <list>
+            <ref type="Group" uri="/All Active Channels/ArcSight System/" id="0NqfTGAwBABCFCmvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Active Lists/ArcSight System/" id="0vljVGAwBABCFEmvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Cases/All Cases/ArcSight System/" id="01000177717777777"/>
+            <ref type="Group" uri="/All Field Sets/ArcSight System/Actor Field Sets/" id="0NGbAAhoBABCAKeF-ouw6fw=="/>
+            <ref type="Group" uri="/All Field Sets/ArcSight System/Event Field Sets/" id="0wGbAAhoBABCAKuF-ouw6fw=="/>
+            <ref type="Group" uri="/All Fields/ArcSight System/Actor Fields/" id="0SWXAAhoBABCAKOF-ouw6fw=="/>
+            <ref type="Group" uri="/All Fields/ArcSight System/Actor Variables/" id="0XrgtUSQBABCAHe0Yu+FE9Q=="/>
+            <ref type="Group" uri="/All Files/ArcSight System/" id="0QPCjtQgBABCAAc4up+JSww=="/>
+            <ref type="Group" uri="/All Filters/ArcSight System/" id="0gRTVGAwBABCFEGvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Integration Commands/ArcSight System/" id="0zSfr+BwBABCAV+47zFVb8A=="/>
+            <ref type="Group" uri="/All Integration Configurations/ArcSight System/" id="0QfLr+BwBABCAZe47zFVb8A=="/>
+            <ref type="Group" uri="/All Locations/ArcSight System/" id="0CfwO1gIBABCANII9WqheeA=="/>
+            <ref type="Group" uri="/All Networks/ArcSight System/" id="0-wNaHAwBABCFUGvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Patterns/ArcSight System/" id="01bfoCPPZ5554AA05GgsvkQQ=="/>
+            <ref type="Group" uri="/All Permissions/ArcSight System/" id="0sf-hCBsBABCACT3ud2KZpg=="/>
+            <ref type="Group" uri="/All Profiles/ArcSight System/" id="0op37Sv0AABCADRVjar0EYQ=="/>
+            <ref type="Group" uri="/All Report Templates/ArcSight System/" id="091rXGAwBABCFHWvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Reports/ArcSight System/" id="0oD7YGAwBABCFImvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Rules/ArcSight System/" id="0tD-ZGAwBABCFKGvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Session Lists/ArcSight System/" id="0daweviIBABCB-As2LSom2g=="/>
+            <ref type="Group" uri="/All Snapshots/ArcSight System/" id="0PjasYfkAABCAAfeuLhan4A=="/>
+            <ref type="Group" uri="/All Use Cases/ArcSight System/" id="0ginoJBwBABCBQ9zGyPpFSA=="/>
+            <ref type="Group" uri="/All Zones/ArcSight Solutions/Galaxy cyDNA/01.WATCH TENANTS/" id="0E+a9+H4BABCAFdsqNh15xQ=="/>
+         </list>
+      </excludeIfNotIncluded>
+      <excludeTypes>
+         <list>
+            <string>ActiveChannel</string>
+            <string>Actor</string>
+            <string>Agent</string>
+            <string>Asset</string>
+            <string>AssetRange</string>
+            <string>Case</string>
+            <string>CategoryModel</string>
+            <string>ConfigurationItem</string>
+            <string>Customer</string>
+            <string>Dashboard</string>
+            <string>DataMonitor</string>
+            <string>Destination</string>
+            <string>Drilldown</string>
+            <string>DrilldownList</string>
+            <string>Field</string>
+            <string>FieldSet</string>
+            <string>File</string>
+            <string>Filter</string>
+            <string>FocusedReport</string>
+            <string>Instrument</string>
+            <string>IntegrationCommand</string>
+            <string>IntegrationConfiguration</string>
+            <string>IntegrationTarget</string>
+            <string>KBase</string>
+            <string>Location</string>
+            <string>Network</string>
+            <string>Note</string>
+            <string>Partition</string>
+            <string>Pattern</string>
+            <string>Permission</string>
+            <string>Profile</string>
+            <string>QueryGroup</string>
+            <string>QueryViewer</string>
+            <string>SavedSearch</string>
+            <string>ScannerReport</string>
+            <string>Search</string>
+            <string>SessionList</string>
+            <string>Snapshot</string>
+            <string>Stage</string>
+            <string>Trend</string>
+            <string>UseCase</string>
+            <string>User</string>
+            <string>ViewerConfiguration</string>
+            <string>Vulnerability</string>
+            <string>Zone</string>
+         </list>
+      </excludeTypes>
+      <format>export</format>
+      <formatRoot/>
+      <include>
+         <list>
+            <ref type="Group" uri="/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/" id="03pHHsIgBABCB32FOZhDtXQ=="/>
+            <ref type="Group" uri="/All Archived Reports/ArcSight Solutions/cyDNA/Insights/CustomerName/" id="0aIU9k4kBABCUHVb8cEqndw=="/>
+            <ref type="Group" uri="/All Queries/ArcSight Solutions/Galaxy cyDNA Insights/" id="02Aktr4gBABDvqNfaJZi8IQ=="/>
+            <ref type="Group" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/" id="0pRmd54UBABCl2Puo9czGmg=="/>
+            <ref type="Group" uri="/All Rules/ArcSight Solutions/Galaxy cyDNA Output/" id="0nBmd54UBABCl1cwfrmOkZQ=="/>
+         </list>
+      </include>
+      <package>
+         <ref type="Package" uri="/All Packages/ArcSight Solutions/cyDNA/Tenant_Template" id="_CgFXPokBABCBClCtScuTLg=="/>
+      </package>
+   </ArchiveCreationParameters>
+   <Group id="02Aktr4gBABDvqNfaJZi8IQ==" name="Galaxy cyDNA Insights" versionID="AAAAAfCvjpcz7o8t" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Queries/ArcSight Solutions/" id="0ojcgtA0BABCADep2osY9gQ=="/>
+         </list>
+      </childOf>
+      <containedResourceType>43</containedResourceType>
+      <description>Generated</description>
+      <hasChild>
+         <list>
+            <ref type="Group" uri="/All Queries/ArcSight Solutions/Galaxy cyDNA Insights/ZZ99.OUTPUTLIST/" id="0HXdUW4IBABCAwLzL98bSTw=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="03pHHsIgBABCB32FOZhDtXQ==" name="Galaxy cyDNA Output" versionID="AAAAA1fWgnAg+yOf" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Active Lists/ArcSight Solutions/" id="0UcdfkQcBABCBbjaRPjqtyQ=="/>
+         </list>
+      </childOf>
+      <containedResourceType>24</containedResourceType>
+      <description> </description>
+      <hasChild>
+         <list>
+            <ref type="Group" uri="/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/" id="0EDDYWYIBABCADXGioWHUPQ=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0EDDYWYIBABCADXGioWHUPQ==" name="ZZ99.OUTPUTLIST" versionID="AAAADjb1XGcdmRuB" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/" id="03pHHsIgBABCB32FOZhDtXQ=="/>
+         </list>
+      </childOf>
+      <containedResourceType>24</containedResourceType>
+      <description> </description>
+      <hasChild>
+         <list>
+            <ref type="ActiveList" uri="/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant_CustomerName_10010" id="Hlzk2U4kBABDTXTzkUZ0tTg=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0FfuE4YgBABCYUccdQK8nYQ==" name="Tenant 10010" versionID="AAAAAyXjH9PyyIeu" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/Insights/CustomerName/" id="0Gc83k4kBABCUHKbGZPkw8A=="/>
+         </list>
+      </childOf>
+      <containedResourceType>9</containedResourceType>
+      <description> </description>
+      <hasChild>
+         <list>
+            <ref type="Report" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/Insights/CustomerName/Tenant 10010/CustomerName_10010_Insights" id="9FPlE6YIBABCo1offqidZvA=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0Gc83k4kBABCUHKbGZPkw8A==" name="CustomerName" versionID="AAAAAyXi1qXyyIey" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/Insights/" id="0gepaW4IBABCKJmH3y2HjCw=="/>
+         </list>
+      </childOf>
+      <containedResourceType>9</containedResourceType>
+      <description> </description>
+      <hasChild>
+         <list>
+            <ref type="Group" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/Insights/CustomerName/Tenant 10010/" id="0FfuE4YgBABCYUccdQK8nYQ=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0HXdUW4IBABCAwLzL98bSTw==" name="ZZ99.OUTPUTLIST" versionID="AAAAEFdgcNHhg0tv" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Queries/ArcSight Solutions/Galaxy cyDNA Insights/" id="02Aktr4gBABDvqNfaJZi8IQ=="/>
+         </list>
+      </childOf>
+      <containedResourceType>43</containedResourceType>
+      <description>Generated</description>
+      <hasChild>
+         <list>
+            <ref type="Query" uri="/All Queries/ArcSight Solutions/Galaxy cyDNA Insights/ZZ99.OUTPUTLIST/CustomerName_10010" id="[c1f8UokBABCJRBYdZdgryA=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0RXrPr4gBABD0KV8Jx2Pz7g==" name="CustomerName 10010" versionID="AAAACVfW5oog+yOi" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Rules/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant Reports/" id="0nBmd54UBABCl12C4ovCDJQ=="/>
+         </list>
+      </childOf>
+      <containedResourceType>5</containedResourceType>
+      <description>Generated</description>
+      <hasChild>
+         <list>
+            <ref type="Rule" uri="/All Rules/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant Reports/CustomerName 10010/cyDNA:CustomerName:10010:AID:SIGNALS" id="55nvPr4gBABD0MEO9bHR-Cg=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0aIU9k4kBABCUHVb8cEqndw==" name="CustomerName" versionID="AAAAAiXi6k3yyIev" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Archived Reports/ArcSight Solutions/cyDNA/Insights/" id="0sfHIL4YBABCA0QyhhMiacw=="/>
+         </list>
+      </childOf>
+      <containedResourceType>10</containedResourceType>
+      <description> </description>
+      <hasChild>
+         <list>
+            <ref type="Group" uri="/All Archived Reports/ArcSight Solutions/cyDNA/Insights/CustomerName/Tenant_10010/" id="0vkTJL4YBABCA1AvDUpxojw=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0gepaW4IBABCKJmH3y2HjCw==" name="Insights" versionID="AAAAAyXi4DPyyIew" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/" id="0pRmd54UBABCl2Puo9czGmg=="/>
+         </list>
+      </childOf>
+      <containedResourceType>9</containedResourceType>
+      <description>Generated</description>
+      <hasChild>
+         <list>
+            <ref type="Group" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/Insights/CustomerName/" id="0Gc83k4kBABCUHKbGZPkw8A=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0nBmd54UBABCl12C4ovCDJQ==" name="Tenant Reports" versionID="AAAAA-Cvhy4z7o8v" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Rules/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/" id="0nBmd54UBABCl1v4EpH1HxQ=="/>
+         </list>
+      </childOf>
+      <containedResourceType>5</containedResourceType>
+      <description>Generated</description>
+      <hasChild>
+         <list>
+            <ref type="Group" uri="/All Rules/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant Reports/CustomerName 10010/" id="0RXrPr4gBABD0KV8Jx2Pz7g=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0nBmd54UBABCl1cwfrmOkZQ==" name="Galaxy cyDNA Output" versionID="AAAAArsfJKMZLCcx" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Rules/ArcSight Solutions/" id="0v9pwkQcBABCBfDaRPjqtyQ=="/>
+            <ref type="Group" uri="/All Rules/Real-time Rules/" id="0g2WmabmAABCAAaooz2klhA=="/>
+         </list>
+      </childOf>
+      <containedResourceType>5</containedResourceType>
+      <description>Generated</description>
+      <hasChild>
+         <list>
+            <ref type="Group" uri="/All Rules/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/" id="0nBmd54UBABCl1v4EpH1HxQ=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0nBmd54UBABCl1v4EpH1HxQ==" name="ZZ99.OUTPUTLIST" versionID="AAAADPCvhqkz7o8y" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Rules/ArcSight Solutions/Galaxy cyDNA Output/" id="0nBmd54UBABCl1cwfrmOkZQ=="/>
+         </list>
+      </childOf>
+      <containedResourceType>5</containedResourceType>
+      <description>Generated</description>
+      <hasChild>
+         <list>
+            <ref type="Group" uri="/All Rules/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant Reports/" id="0nBmd54UBABCl12C4ovCDJQ=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0pRmd54UBABCl2Puo9czGmg==" name="Galaxy cyDNA Insights" versionID="AAAAA4pkSwCKNHFV" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Reports/ArcSight Solutions/" id="0JBzYGAwBABCFIWvLDCwdyQ=="/>
+         </list>
+      </childOf>
+      <containedResourceType>9</containedResourceType>
+      <description>Generated</description>
+      <hasChild>
+         <list>
+            <ref type="Group" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/Insights/" id="0gepaW4IBABCKJmH3y2HjCw=="/>
+         </list>
+      </hasChild>
+   </Group>
+   <Group id="0vkTJL4YBABCA1AvDUpxojw==" name="Tenant_10010" versionID="AAAAA72qR9kdoZdI" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Archived Reports/ArcSight Solutions/cyDNA/Insights/CustomerName/" id="0aIU9k4kBABCUHVb8cEqndw=="/>
+         </list>
+      </childOf>
+      <containedResourceType>10</containedResourceType>
+      <description> </description>
+      <hasDependant>
+         <list>
+            <ref type="ScheduledTask" uri="/All Scheduled Tasks/Unassigned/;mAzML4YBABCA32gS6g0fyQ==/Task 9FPlE6YIBABCo1offqidZvA==" id=";mAzML4YBABCA32gS6g0fyQ=="/>
+         </list>
+      </hasDependant>
+   </Group>
+   <Rule id="55nvPr4gBABD0MEO9bHR-Cg==" name="cyDNA:CustomerName:10010:AID:SIGNALS" versionID="AAAABL5smlAdoZdJ" action="insert" >
+      <active>1</active>
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Rules/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant Reports/CustomerName 10010/" id="0RXrPr4gBABD0KV8Jx2Pz7g=="/>
+         </list>
+      </childOf>
+      <def>&lt;Rule Name=&quot;cyDNA:CustomerName:10010:AID:SIGNALS&quot; Type=&quot;Normal&quot; ID=&quot;55nvPr4gBABD0MEO9bHR-Cg==&quot;&gt;
+  &lt;Query&gt;
+    &lt;FromClause&gt;
+      &lt;Table Name=&quot;Event&quot; Alias=&quot;event1&quot; AliasType=&quot;Positive&quot; /&gt;
+    &lt;/FromClause&gt;
+    &lt;WhereClause TimeWindowSize=&quot;10&quot; TimeUnit=&quot;Second&quot; Threshold=&quot;50&quot;&gt;
+      &lt;Condition ConditionType=&quot;Positive&quot; TableAlias=&quot;event1&quot;&gt;
+        &lt;And Name=&quot;And1909924193&quot;&gt;
+          &lt;BasicCondition Operator=&quot;Contains&quot; JoinCondition=&quot;No&quot; Negated=&quot;Yes&quot; IgnoreCase=&quot;No&quot; ListCompare=&quot;ANY&quot;&gt;
+            &lt;Variable Column=&quot;generatorName&quot; TableAlias=&quot;event1&quot; /&gt;
+            &lt;Value&gt;:ESM&lt;/Value&gt;
+          &lt;/BasicCondition&gt;
+          &lt;BasicCondition Operator=&quot;Contains&quot; JoinCondition=&quot;No&quot; Negated=&quot;Yes&quot; IgnoreCase=&quot;No&quot; ListCompare=&quot;ANY&quot;&gt;
+            &lt;Variable Column=&quot;name&quot; TableAlias=&quot;event1&quot; /&gt;
+            &lt;Value&gt;AID:&lt;/Value&gt;
+          &lt;/BasicCondition&gt;
+          &lt;BasicCondition Operator=&quot;NE&quot; JoinCondition=&quot;No&quot; Negated=&quot;No&quot; IgnoreCase=&quot;No&quot; ListCompare=&quot;ANY&quot;&gt;
+            &lt;Variable Column=&quot;deviceEventClassId&quot; TableAlias=&quot;event1&quot; /&gt;
+            &lt;Value&gt;GALAXY:HELPER&lt;/Value&gt;
+          &lt;/BasicCondition&gt;
+          &lt;BasicCondition Operator=&quot;Contains&quot; JoinCondition=&quot;No&quot; Negated=&quot;No&quot; IgnoreCase=&quot;No&quot; ListCompare=&quot;ANY&quot;&gt;
+            &lt;Variable Column=&quot;deviceEventClassId&quot; TableAlias=&quot;event1&quot; /&gt;
+            &lt;Value&gt;CYDNA&lt;/Value&gt;
+          &lt;/BasicCondition&gt;
+          &lt;Or Name=&quot;Or1894911670&quot;&gt;
+            &lt;BasicCondition Operator=&quot;InGroup&quot; JoinCondition=&quot;No&quot; Negated=&quot;No&quot; IgnoreCase=&quot;No&quot; ListCompare=&quot;ANY&quot;&gt;
+              &lt;Variable Column=&quot;sourceZone&quot; TableAlias=&quot;event1&quot; /&gt;
+              &lt;Resource URI=&quot;/All Zones/ArcSight Solutions/Galaxy cyDNA/01.WATCH TENANTS/&quot; ID=&quot;0E+a9+H4BABCAFdsqNh15xQ==&quot; /&gt;
+            &lt;/BasicCondition&gt;
+            &lt;BasicCondition Operator=&quot;InGroup&quot; JoinCondition=&quot;No&quot; Negated=&quot;No&quot; IgnoreCase=&quot;No&quot; ListCompare=&quot;ANY&quot;&gt;
+              &lt;Variable Column=&quot;destinationZone&quot; TableAlias=&quot;event1&quot; /&gt;
+              &lt;Resource URI=&quot;/All Zones/ArcSight Solutions/Galaxy cyDNA/01.WATCH TENANTS/&quot; ID=&quot;0E+a9+H4BABCAFdsqNh15xQ==&quot; /&gt;
+            &lt;/BasicCondition&gt;
+          &lt;/Or&gt;
+          &lt;BasicCondition Operator=&quot;EQ&quot; JoinCondition=&quot;No&quot; Negated=&quot;No&quot; IgnoreCase=&quot;No&quot; ListCompare=&quot;ANY&quot;&gt;
+            &lt;Variable Column=&quot;flexNumber1&quot; TableAlias=&quot;event1&quot; /&gt;
+            &lt;Value&gt;10010&lt;/Value&gt;
+          &lt;/BasicCondition&gt;
+        &lt;/And&gt;
+      &lt;/Condition&gt;
+    &lt;/WhereClause&gt;
+    &lt;GroupByClause&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;adversary_city&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;targetGeoCountryName&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceDnsDomain&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;externalId&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;sessionId&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;targetZoneResource&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;attackerAddress&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;covertKBtoMB&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;adversary_latitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;impacted_longitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;myOriginator&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceTranslatedAddress&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomNumber2Label&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;adversary_country&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomString1Label&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceExternalId&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;fileName&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomString4Label&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;flexString1&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;flexString2&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomString6&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomString5&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;transportProtocol&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomString4&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomString3&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;DD&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomString2&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;impacted_latitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;ipprotocol____1&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomString1&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;checkDirection&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;dta&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomNumber1Label&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;flexNumber1&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;categoryTupleDescription&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;impacted_ops_country&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;dportlookup____1&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceDomain&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomString5Label&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;destinationGeoLatitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;destinationZoneResource&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceEventClassId&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;sourceGeoLatitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceDirection&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;attackerZoneResource&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;targetGeoLongitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;destinationGeoCountryName&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;attackerGeoLocationInfo&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;etshort&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;destinationHostName&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;customerResource&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;attackerGeoCountryName&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;ddconvert&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;destinationAddress&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;categoryObject&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;sourceGeoLocationInfo&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;attackerGeoLatitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomNumber3Label&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;bytesOut&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomString3Label&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;filePath&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;sourceAddress&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;sourceZoneResource&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;rule_name&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;fileCreateTime&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;fcCreateTimeInHour&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;sourceHostName&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;admin_country&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;HH&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;sourceGeoLongitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;targetHostName&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;attackerGeoLongitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomString2Label&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;Global_event_id&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;sourceGeoCountryName&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;impact_city&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;vulnerabilityResource&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;priority&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;targetGeoLatitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;destinationGeoLocationInfo&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;MM&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;rawEvent&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;categorySignificance&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomNumber3&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;adversary_longitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomNumber2&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;deviceCustomNumber1&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;targetGeoLocationInfo&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;message&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;getdyofweek&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;attackerHostName&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;destinationGeoLongitude&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;applicationProtocol&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;destinationTranslatedAddress&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;targetAddress&quot; /&gt;
+      &lt;Variable TableAlias=&quot;event1&quot; Column=&quot;critical&quot; /&gt;
+    &lt;/GroupByClause&gt;
+  &lt;/Query&gt;
+  &lt;Actions&gt;
+    &lt;Action Event=&quot;OnFirstEvent&quot;&gt;
+      &lt;SendToConsole /&gt;
+    &lt;/Action&gt;
+    &lt;Action Event=&quot;OnFirstEvent&quot;&gt;
+      &lt;SetEventField EventFieldName=&quot;originator&quot; EventFieldValue=&quot;$myOriginator&quot; /&gt;
+    &lt;/Action&gt;
+    &lt;Action Event=&quot;OnFirstEvent&quot;&gt;
+      &lt;SetEventField EventFieldName=&quot;deviceEventClassId&quot; EventFieldValue=&quot;GALAXY:HELPER&quot; /&gt;
+    &lt;/Action&gt;
+    &lt;Action Event=&quot;OnFirstEvent&quot;&gt;
+      &lt;SetEventField EventFieldName=&quot;reason&quot; EventFieldValue=&quot;$etshort&quot; /&gt;
+    &lt;/Action&gt;
+    &lt;Action Event=&quot;OnFirstEvent&quot;&gt;
+      &lt;SetEventField EventFieldName=&quot;flexString2&quot; EventFieldValue=&quot;$getdyofweek&quot; /&gt;
+    &lt;/Action&gt;
+    &lt;Action Event=&quot;OnFirstEvent&quot;&gt;
+      &lt;SetEventField EventFieldName=&quot;categorySignificance&quot; EventFieldValue=&quot;NOT CRITICAL&quot; /&gt;
+    &lt;/Action&gt;
+    &lt;Action Event=&quot;OnFirstEvent&quot;&gt;
+      &lt;SetEventField EventFieldName=&quot;deviceDomain&quot; EventFieldValue=&quot;$deviceDomain|CV=24.1.0&quot; /&gt;
+    &lt;/Action&gt;
+    &lt;Action Event=&quot;OnFirstEvent&quot;&gt;
+      &lt;SetEventField EventFieldName=&quot;externalId&quot; EventFieldValue=&quot;$Global_event_id&quot; /&gt;
+    &lt;/Action&gt;
+    &lt;Action Event=&quot;OnFirstEvent&quot;&gt;
+      &lt;SetEventField EventFieldName=&quot;message&quot; EventFieldValue=&quot;$getdyofweek&quot; /&gt;
+    &lt;/Action&gt;
+    &lt;Action Event=&quot;OnFirstEvent&quot;&gt;
+      &lt;SetEventField EventFieldName=&quot;fileName&quot; EventFieldValue=&quot;$rule_name&quot; /&gt;
+    &lt;/Action&gt;
+    &lt;Action Event=&quot;OnFirstEvent&quot;&gt;
+      &lt;AddToList DisableAuditEvent=&quot;Yes&quot;&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;fcCreateTimeInHour&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;flexNumber1&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;deviceCustomString1&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;deviceCustomString2&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;targetAddress&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;categoryTupleDescription&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;attackerAddress&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;priority&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;applicationProtocol&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;transportProtocol&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;MM&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;HH&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;message&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;DD&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;checkDirection&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;dta&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;critical&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;rawEvent&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;deviceExternalId&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;admin_country&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;impacted_ops_country&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;deviceCustomString3&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;deviceCustomString4&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;deviceCustomString5&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;targetZoneName&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;impact_city&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;impacted_latitude&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;impacted_longitude&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;adversary_country&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;adversary_city&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;adversary_latitude&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;adversary_longitude&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;deviceCustomNumber2&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;covertKBtoMB&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;attackerHostName&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;targetHostName&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;flexString1&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;externalId&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;deviceDomain&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;fileName&quot; /&gt;
+        &lt;ActionParameter Name=&quot;Field&quot; Value=&quot;filePath&quot; /&gt;
+        &lt;Resource ID=&quot;Hlzk2U4kBABDTXTzkUZ0tTg==&quot; URI=&quot;/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant_CustomerName_10010&quot; /&gt;
+      &lt;/AddToList&gt;
+    &lt;/Action&gt;
+  &lt;/Actions&gt;
+  &lt;DependentVariables OwnerResourceID=&quot;55nvPr4gBABD0MEO9bHR-Cg==&quot;&gt;
+    &lt;BaseIntrospector Name=&quot;com.arcsight.event.SecurityEvent&quot; /&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;ipprotocol&quot; FieldDisplayName=&quot;ipprotocol&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;Tvxz-D4EBABCPf24HPvH2uA==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B02.IP PROTOCOL/ipprotocol&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;dportlookup&quot; FieldDisplayName=&quot;dportlookup&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;T1xbDCIABABCAT9WCBUYD-g==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B04.TCP.UDPLOOKUP/dportlookup&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;MM&quot; FieldDisplayName=&quot;MM&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;Tjqmaq4EBABCZ5zZoKaR1mQ==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/1:EXTRACT/MM&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;DD&quot; FieldDisplayName=&quot;DD&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;TNxmbq4EBABCZ6fO60G7G5w==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/1:EXTRACT/DD&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;covertKBtoMB&quot; FieldDisplayName=&quot;covertKBtoMB&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;Tth1m738BABCYjX+4MDPyPw==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B10.BYTE CONVERTER/covertKBtoMB&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;HH&quot; FieldDisplayName=&quot;HH&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;TcEqdNIIBABCGV5mAzUdQQw==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/1:EXTRACT/HH&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;custom_condition_function&quot; FieldName=&quot;checkDirection&quot; FieldDisplayName=&quot;checkDirection&quot;&gt;
+      &lt;ZoneDefinition&gt;'deviceDirection' EQ &quot;Inbound&quot;&lt;/ZoneDefinition&gt;
+      &lt;FunctionFieldValue Type=&quot;String&quot;&gt;&lt;![CDATA[Inbound]]&gt;&lt;/FunctionFieldValue&gt;
+      &lt;FunctionFieldValue Type=&quot;String&quot;&gt;&lt;![CDATA[Outbound]]&gt;&lt;/FunctionFieldValue&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;etshort&quot; FieldDisplayName=&quot;etshort&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;T31Giq4EBABCgka2-QCaY3A==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/etshort&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;custom_condition_function&quot; FieldName=&quot;dta&quot; FieldDisplayName=&quot;dta&quot;&gt;
+      &lt;ZoneDefinition&gt;'deviceEventClassId' Not Contains &quot;DTA&quot;&lt;/ZoneDefinition&gt;
+      &lt;FunctionFieldVariable Column=&quot;categoryObject&quot; /&gt;
+      &lt;FunctionFieldValue Type=&quot;String&quot;&gt;&lt;![CDATA[DTA]]&gt;&lt;/FunctionFieldValue&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;custom_condition_function&quot; FieldName=&quot;critical&quot; FieldDisplayName=&quot;critical&quot;&gt;
+      &lt;ZoneDefinition&gt; InZone( &quot;2UlsCNYIBABDF+cJRkF9m-Q==:/All Filters/ArcSight Solutions/Galaxy cyDNA Multi-Space/A.WORKER/1.Master Filters/A01*NOT CRITICAL:::&quot; ) &lt;/ZoneDefinition&gt;
+      &lt;FunctionFieldValue Type=&quot;String&quot;&gt;&lt;![CDATA[NOT CRITICAL]]&gt;&lt;/FunctionFieldValue&gt;
+      &lt;FunctionFieldValue Type=&quot;String&quot;&gt;&lt;![CDATA[CRITICAL]]&gt;&lt;/FunctionFieldValue&gt;
+      &lt;FunctionFieldResource ID=&quot;2UlsCNYIBABDF+cJRkF9m-Q==&quot; URI=&quot;/All Filters/ArcSight Solutions/Galaxy cyDNA Multi-Space/A.WORKER/1.Master Filters/A01:NOT CRITICAL&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;parse_timestamp&quot; FieldName=&quot;fcCreateTimeInHour&quot; FieldDisplayName=&quot;fcCreateTimeInHour&quot;&gt;
+      &lt;FunctionFieldVariable Column=&quot;fileCreateTime&quot; /&gt;
+      &lt;FunctionFieldValue Type=&quot;String&quot;&gt;&lt;![CDATA[get_year_month_day_hh]]&gt;&lt;/FunctionFieldValue&gt;
+      &lt;FunctionFieldValue Type=&quot;String&quot;&gt;&lt;![CDATA[Default Time Zone]]&gt;&lt;/FunctionFieldValue&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;getsourcetenantL1&quot; FieldDisplayName=&quot;getsourcetenantL1&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;Tz0RUX38BABDzP92HercB0A==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 0.1/A0.FOCUSED TENANT LOOKUP/L1.GET COUNTRY/getsourcetenantL1&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;gettargettenantL1&quot; FieldDisplayName=&quot;gettargettenantL1&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;ToWtVX38BABD-ECRj1zwJ8Q==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 0.1/A0.FOCUSED TENANT LOOKUP/L1.GET COUNTRY/gettargettenantL1&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;custom_condition_function&quot; FieldName=&quot;admin_country&quot; FieldDisplayName=&quot;admin_country&quot;&gt;
+      &lt;ZoneDefinition&gt;'sourceZone' InGroup &quot;0E+a9+H4BABCAFdsqNh15xQ==:/All Zones/ArcSight Solutions/Galaxy cyDNA/01.WATCH TENANTS:::&quot;&lt;/ZoneDefinition&gt;
+      &lt;FunctionFieldVariableResource&gt;
+        &lt;FunctionFieldResource ID=&quot;Tz0RUX38BABDzP92HercB0A==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 0.1/A0.FOCUSED TENANT LOOKUP/L1.GET COUNTRY/getsourcetenantL1&quot; /&gt;
+      &lt;/FunctionFieldVariableResource&gt;
+      &lt;FunctionFieldVariableResource&gt;
+        &lt;FunctionFieldResource ID=&quot;ToWtVX38BABD-ECRj1zwJ8Q==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 0.1/A0.FOCUSED TENANT LOOKUP/L1.GET COUNTRY/gettargettenantL1&quot; /&gt;
+      &lt;/FunctionFieldVariableResource&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;custom_condition_function&quot; FieldName=&quot;myOriginator&quot; FieldDisplayName=&quot;myOriginator&quot;&gt;
+      &lt;ZoneDefinition&gt;'sourceZone' InGroup &quot;0E+a9+H4BABCAFdsqNh15xQ==:/All Zones/ArcSight Solutions/Galaxy cyDNA/01.WATCH TENANTS:::&quot;&lt;/ZoneDefinition&gt;
+      &lt;FunctionFieldValue Type=&quot;String&quot;&gt;&lt;![CDATA[Destination]]&gt;&lt;/FunctionFieldValue&gt;
+      &lt;FunctionFieldValue Type=&quot;String&quot;&gt;&lt;![CDATA[Source]]&gt;&lt;/FunctionFieldValue&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;impact_city&quot; FieldDisplayName=&quot;impact_city&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;TJwfCAogBABDb0EjM1f-IOA==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/impact_city&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;adversary_city&quot; FieldDisplayName=&quot;adversary_city&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;T-7DBAogBABDbIMSnmNe6QQ==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/adversary_city&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;impacted_longitude&quot; FieldDisplayName=&quot;impacted_longitude&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;Th4fBAogBABDaaCnTZrHHRA==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/impacted_longitude&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;adversary_latitude&quot; FieldDisplayName=&quot;adversary_latitude&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;TyWLBAogBABDZpPHWKjeCcA==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/adversary_latitude&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;adversary_country&quot; FieldDisplayName=&quot;adversary_country&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;TxynBAogBABDY1G2VbGsvUw==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/adversary_country&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;impacted_ops_country&quot; FieldDisplayName=&quot;impacted_ops_country&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;TtevAAogBABDX82jsJpIFTA==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/impacted_ops_country&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;impacted_latitude&quot; FieldDisplayName=&quot;impacted_latitude&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;TP+EX-YcBABCKRECQkxc1wg==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/impacted_latitude&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;adversary_longitude&quot; FieldDisplayName=&quot;adversary_longitude&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;Tw4caAYgBABCv00aCUmQ6aA==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/adversary_longitude&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;getdyofweek&quot; FieldDisplayName=&quot;getdyofweek&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;ToJFlSYQBABCNfygKR-rCsw==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/1:EXTRACT/getdyofweek&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;eval_global_var&quot; FieldName=&quot;ddconvert&quot; FieldDisplayName=&quot;ddconvert&quot;&gt;
+      &lt;FunctionFieldResource ID=&quot;TT6idq4EBABCebMtp4LwK4w==&quot; URI=&quot;/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/2:CONVERT/ddconvert&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;alias_field&quot; FieldName=&quot;correlation_id&quot; FieldDisplayName=&quot;correlation_id&quot;&gt;
+      &lt;FunctionFieldVariable Column=&quot;globalEventId&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;convert_number_to_string&quot; FieldName=&quot;Global_event_id&quot; FieldDisplayName=&quot;Global_event_id&quot;&gt;
+      &lt;FunctionFieldVariable Column=&quot;globalEventId&quot; /&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;last_index_of&quot; FieldName=&quot;index_filePath&quot; FieldDisplayName=&quot;index_filePath&quot;&gt;
+      &lt;FunctionFieldVariable Column=&quot;filePath&quot; /&gt;
+      &lt;FunctionFieldValue Type=&quot;String&quot;&gt;&lt;![CDATA[/]]&gt;&lt;/FunctionFieldValue&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;add&quot; FieldName=&quot;indexPlusOne&quot; FieldDisplayName=&quot;indexPlusOne&quot;&gt;
+      &lt;FunctionFieldVariable Column=&quot;index_filePath&quot; /&gt;
+      &lt;FunctionFieldValue Type=&quot;Integer&quot;&gt;1&lt;/FunctionFieldValue&gt;
+    &lt;/DependentVariable&gt;
+    &lt;DependentVariable FunctionName=&quot;substring&quot; FieldName=&quot;rule_name&quot; FieldDisplayName=&quot;rule_name&quot;&gt;
+      &lt;FunctionFieldVariable Column=&quot;filePath&quot; /&gt;
+      &lt;FunctionFieldVariable Column=&quot;indexPlusOne&quot; /&gt;
+      &lt;FunctionFieldValue Type=&quot;Integer&quot;&gt;-1&lt;/FunctionFieldValue&gt;
+    &lt;/DependentVariable&gt;
+  &lt;/DependentVariables&gt;
+&lt;/Rule&gt;</def>
+      <dependantOf>
+         <list>
+            <ref type="ActiveList" uri="/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant_CustomerName_10010" id="Hlzk2U4kBABDTXTzkUZ0tTg=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA 0.1/A0.FOCUSED TENANT LOOKUP/L1.GET COUNTRY/getsourcetenantL1" id="Tz0RUX38BABDzP92HercB0A=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA 0.1/A0.FOCUSED TENANT LOOKUP/L1.GET COUNTRY/gettargettenantL1" id="ToWtVX38BABD-ECRj1zwJ8Q=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/1:EXTRACT/DD" id="TNxmbq4EBABCZ6fO60G7G5w=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/1:EXTRACT/HH" id="TcEqdNIIBABCGV5mAzUdQQw=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/1:EXTRACT/MM" id="Tjqmaq4EBABCZ5zZoKaR1mQ=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/1:EXTRACT/getdyofweek" id="ToJFlSYQBABCNfygKR-rCsw=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/2:CONVERT/ddconvert" id="TT6idq4EBABCebMtp4LwK4w=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B01.US DATE SHORTENING/FILE CREATE DATE/etshort" id="T31Giq4EBABCgka2-QCaY3A=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B02.IP PROTOCOL/ipprotocol" id="Tvxz-D4EBABCPf24HPvH2uA=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B04.TCP.UDPLOOKUP/dportlookup" id="T1xbDCIABABCAT9WCBUYD-g=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA 1.0/C.HELPER/B10.BYTE CONVERTER/covertKBtoMB" id="Tth1m738BABCYjX+4MDPyPw=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/adversary_city" id="T-7DBAogBABDbIMSnmNe6QQ=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/adversary_country" id="TxynBAogBABDY1G2VbGsvUw=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/adversary_latitude" id="TyWLBAogBABDZpPHWKjeCcA=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/adversary_longitude" id="Tw4caAYgBABCv00aCUmQ6aA=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/impact_city" id="TJwfCAogBABDb0EjM1f-IOA=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/impacted_latitude" id="TP+EX-YcBABCKRECQkxc1wg=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/impacted_longitude" id="Th4fBAogBABDaaCnTZrHHRA=="/>
+            <ref type="Field" uri="/All Fields/ArcSight Solutions/Galaxy cyDNA OutPut/impacted_ops_country" id="TtevAAogBABDX82jsJpIFTA=="/>
+            <ref type="Filter" uri="/All Filters/ArcSight Solutions/Galaxy cyDNA Multi-Space/A.WORKER/1.Master Filters/A01:NOT CRITICAL" id="2UlsCNYIBABDF+cJRkF9m-Q=="/>
+            <ref type="Group" uri="/All Zones/ArcSight Solutions/Galaxy cyDNA/01.WATCH TENANTS/" id="0E+a9+H4BABCAFdsqNh15xQ=="/>
+         </list>
+      </dependantOf>
+   </Rule>
+   <Report id="9FPlE6YIBABCo1offqidZvA==" name="CustomerName_10010_Insights" versionID="AAAAAjJrejMNhOK-" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/Insights/CustomerName/Tenant 10010/" id="0FfuE4YgBABCYUccdQK8nYQ=="/>
+         </list>
+      </childOf>
+      <databaseView>ActiveList</databaseView>
+      <dependantOf>
+         <list>
+            <ref type="Query" uri="/All Queries/ArcSight Solutions/Galaxy cyDNA Insights/ZZ99.OUTPUTLIST/CustomerName_10010" id="[c1f8UokBABCJRBYdZdgryA=="/>
+            <ref type="ReportTemplate" uri="/All Report Templates/ArcSight System/1 Table/Simple Table Portrait" id="\ycc4CgoBABCAEk5WPUigSQ=="/>
+         </list>
+      </dependantOf>
+      <hasDependant>
+         <list>
+            <ref type="ScheduledTask" uri="/All Scheduled Tasks/Unassigned/;mAzML4YBABCA32gS6g0fyQ==/Task 9FPlE6YIBABCo1offqidZvA==" id=";mAzML4YBABCA32gS6g0fyQ=="/>
+         </list>
+      </hasDependant>
+      <hasParam>N</hasParam>
+      <hasScheduledTask>
+         <list>
+            <ref type="ScheduledTask" uri="/All Scheduled Tasks/Unassigned/;mAzML4YBABCA32gS6g0fyQ==/Task 9FPlE6YIBABCo1offqidZvA==" id=";mAzML4YBABCA32gS6g0fyQ=="/>
+         </list>
+      </hasScheduledTask>
+      <reportXML>&lt;Report EngineVendor=&quot;inetsoft&quot;&gt;
+  &lt;Template&gt;
+    &lt;Resource URI=&quot;/All Report Templates/ArcSight System/1 Table/Simple Table Portrait&quot; ID=&quot;\ycc4CgoBABCAEk5WPUigSQ==&quot; /&gt;
+  &lt;/Template&gt;
+  &lt;TableComponent ID=&quot;Table&quot;&gt;
+    &lt;Queryable&gt;
+      &lt;Resource URI=&quot;/All Queries/ArcSight Solutions/Galaxy cyDNA Insights/ZZ99.OUTPUTLIST/CustomerName_10010&quot; ID=&quot;[c1f8UokBABCJRBYdZdgryA==&quot; /&gt;
+    &lt;/Queryable&gt;
+    &lt;TableColumns ShowGrandTotal=&quot;false&quot; GrandTotalLabel=&quot;Grand Total&quot;&gt;
+      &lt;TableColumn Alias=&quot;Count&quot; SortDirection=&quot;0&quot;&gt;0&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;adversary_FQDN&quot; SortDirection=&quot;0&quot;&gt;1&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;adversary_asset&quot; SortDirection=&quot;0&quot;&gt;2&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;adversary_city&quot; SortDirection=&quot;0&quot;&gt;3&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;adversary_latitude&quot; SortDirection=&quot;0&quot;&gt;40&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;adversary_country&quot; SortDirection=&quot;0&quot;&gt;41&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;adversary_longitude&quot; SortDirection=&quot;0&quot;&gt;6&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;adversary_operations&quot; SortDirection=&quot;0&quot;&gt;7&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;adversary_origin&quot; SortDirection=&quot;0&quot;&gt;8&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;cydna_external_id&quot; SortDirection=&quot;0&quot;&gt;10&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;critical_infrastructure&quot; SortDirection=&quot;0&quot;&gt;9&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;data_mb&quot; SortDirection=&quot;0&quot;&gt;11&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;date_day_of_month&quot; SortDirection=&quot;0&quot;&gt;12&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;date_day_of_week&quot; SortDirection=&quot;0&quot;&gt;13&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;date_hour_of_day&quot; SortDirection=&quot;0&quot;&gt;14&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;date_month_of_year&quot; SortDirection=&quot;0&quot;&gt;15&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;direction&quot; SortDirection=&quot;0&quot;&gt;16&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;dta&quot; SortDirection=&quot;0&quot;&gt;17&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;threat_name&quot; SortDirection=&quot;0&quot;&gt;18&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;tenantid&quot; SortDirection=&quot;0&quot;&gt;19&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;tenant_name&quot; SortDirection=&quot;0&quot;&gt;20&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;raw_message&quot; SortDirection=&quot;0&quot;&gt;21&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;priority&quot; SortDirection=&quot;0&quot;&gt;22&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;octets&quot; SortDirection=&quot;0&quot;&gt;23&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;ip_service&quot; SortDirection=&quot;0&quot;&gt;24&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;ip_protocol&quot; SortDirection=&quot;0&quot;&gt;25&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;impacted_subnet&quot; SortDirection=&quot;0&quot;&gt;26&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;impacted_sector&quot; SortDirection=&quot;0&quot;&gt;27&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;impacted_ops_country&quot; SortDirection=&quot;0&quot;&gt;28&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;impacted_longitude&quot; SortDirection=&quot;0&quot;&gt;29&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;impacted_latitude&quot; SortDirection=&quot;0&quot;&gt;30&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;impacted_entity&quot; SortDirection=&quot;0&quot;&gt;31&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;impacted_department&quot; SortDirection=&quot;0&quot;&gt;32&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;impacted_city&quot; SortDirection=&quot;0&quot;&gt;33&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;impacted_asset&quot; SortDirection=&quot;0&quot;&gt;34&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;impacted_admin_country&quot; SortDirection=&quot;0&quot;&gt;35&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;impacted_FQDN&quot; SortDirection=&quot;0&quot;&gt;36&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;detected_time&quot; SortDirection=&quot;0&quot;&gt;37&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;event_id&quot; SortDirection=&quot;0&quot;&gt;38&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;version&quot; SortDirection=&quot;0&quot;&gt;39&lt;/TableColumn&gt;
+      &lt;TableColumn Alias=&quot;rule_name&quot; SortDirection=&quot;0&quot;&gt;42&lt;/TableColumn&gt;
+    &lt;/TableColumns&gt;
+    &lt;TableGroups MergeGroupCells=&quot;true&quot; ShowGroupColumns=&quot;true&quot; ShowGroupHeader=&quot;true&quot; /&gt;
+    &lt;ComponentParameters&gt;
+      &lt;ReportComponentParameter Name=&quot;Time Zone&quot; FieldType=&quot;7&quot; FieldSubtype=&quot;com.arcsight.reports.ReportTimeZoneEnumeration&quot; ComponentId=&quot;Table&quot;&gt;&lt;![CDATA[0]]&gt;&lt;/ReportComponentParameter&gt;
+    &lt;/ComponentParameters&gt;
+  &lt;/TableComponent&gt;
+  &lt;TextComponent ID=&quot;Title&quot; /&gt;
+  &lt;TextComponent ID=&quot;Subtitle&quot; /&gt;
+  &lt;TextComponent ID=&quot;TableTitle&quot; /&gt;
+  &lt;HeaderComponents&gt;
+    &lt;TextComponent ID=&quot;Header&quot; /&gt;
+  &lt;/HeaderComponents&gt;
+  &lt;FooterComponents&gt;
+    &lt;TextComponent ID=&quot;Footer&quot; /&gt;
+    &lt;TextComponent ID=&quot;Disclaimer&quot; /&gt;
+  &lt;/FooterComponents&gt;
+  &lt;CommonParameters&gt;
+    &lt;ReportParameter Name=&quot;Report Format&quot; FieldType=&quot;7&quot; FieldSubtype=&quot;com.arcsight.reports.ReportOutputFormatEnumeration&quot;&gt;&lt;![CDATA[3]]&gt;&lt;/ReportParameter&gt;
+    &lt;ReportParameter Name=&quot;Page Size&quot; FieldType=&quot;7&quot; FieldSubtype=&quot;com.arcsight.reports.ReportPageSizeEnumeration&quot;&gt;&lt;![CDATA[0]]&gt;&lt;/ReportParameter&gt;
+    &lt;ReportParameter Name=&quot;Run as User&quot; FieldType=&quot;8&quot; FieldSubtype=&quot;class com.arcsight.common.resource.ResourceReference&quot; ResourceReferenceFieldSubtype=&quot;1&quot; /&gt;
+    &lt;ReportParameter Name=&quot;Email to&quot; FieldType=&quot;9&quot;&gt;
+      &lt;ListContainedType FieldType=&quot;8&quot; FieldSubtype=&quot;class com.arcsight.common.resource.ResourceReference&quot; ResourceReferenceFieldSubtype=&quot;1&quot; /&gt;
+    &lt;/ReportParameter&gt;
+    &lt;ReportParameter Name=&quot;Email addresses&quot; FieldType=&quot;0&quot; FieldSubtype=&quot;null&quot; /&gt;
+    &lt;ReportParameter Name=&quot;Email Format&quot; FieldType=&quot;7&quot; FieldSubtype=&quot;com.arcsight.reports.ReportMailToFormatEnumeration&quot;&gt;&lt;![CDATA[0]]&gt;&lt;/ReportParameter&gt;
+    &lt;ReportParameter Name=&quot;Email Subject&quot; FieldType=&quot;0&quot; FieldSubtype=&quot;null&quot;&gt;&lt;![CDATA[$ReportName]]&gt;&lt;/ReportParameter&gt;
+  &lt;/CommonParameters&gt;
+  &lt;SaveOutputParameters&gt;
+    &lt;ReportParameter Name=&quot;Archive Report Folder&quot; FieldType=&quot;8&quot; FieldSubtype=&quot;class com.arcsight.common.resource.ResourceReference&quot; ResourceReferenceFieldSubtype=&quot;0&quot; GroupResourceContainedType=&quot;10&quot; /&gt;
+    &lt;ReportParameter Name=&quot;Archive Report Name&quot; FieldType=&quot;0&quot; FieldSubtype=&quot;null&quot;&gt;&lt;![CDATA[${Today}/${ReportName}_${Now}]]&gt;&lt;/ReportParameter&gt;
+    &lt;ReportParameter Name=&quot;Archive Report Expiration Time&quot; FieldType=&quot;1&quot; FieldSubtype=&quot;null&quot;&gt;&lt;![CDATA[$Now+6M]]&gt;&lt;/ReportParameter&gt;
+  &lt;/SaveOutputParameters&gt;
+  &lt;CustomParameters /&gt;
+&lt;/Report&gt;</reportXML>
+      <type>Reports V4</type>
+   </Report>
+   <ScheduledTask id=";mAzML4YBABCA32gS6g0fyQ==" name="Task 9FPlE6YIBABCo1offqidZvA==" alias="Task 9FPlE6YIBABCo1offqidZvA==" versionID="AAAAA74HjKUdoZdK" action="insert" >
+      <callbackId>ReportServer</callbackId>
+      <dependantOf>
+         <list>
+            <ref type="Group" uri="/All Archived Reports/ArcSight Solutions/cyDNA/Insights/CustomerName/Tenant_10010/" id="0vkTJL4YBABCA1AvDUpxojw=="/>
+            <ref type="Report" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/Insights/CustomerName/Tenant 10010/CustomerName_10010_Insights" id="9FPlE6YIBABCo1offqidZvA=="/>
+         </list>
+      </dependantOf>
+      <endTime>-1</endTime>
+      <numParamSets>1</numParamSets>
+      <ownedBy>
+         <list>
+            <ref type="User" uri="/All Users/Administrators/admin" id="1dOHbTIYBABCA2xMk1KQaVg=="/>
+         </list>
+      </ownedBy>
+      <params1>2,ScheduledReport:S:,\LScheduledReport\G\n  \LCommonParameters /\G\n  \LSaveOutputParameters\G\n    \LReportParameter Name=&quot;Archive Report Folder&quot; FieldType=&quot;8&quot; FieldSubtype=&quot;class com.arcsight.common.resource.ResourceReference&quot; ResourceReferenceFieldSubtype=&quot;0&quot; GroupResourceContainedType=&quot;10&quot;\G\L![CDATA[\LResource ID=&quot;0vkTJL4YBABCA1AvDUpxojw==&quot; /\G]]\G\L/ReportParameter\G\n    \LReportParameter Name=&quot;Archive Report Expiration Time&quot; FieldType=&quot;1&quot; FieldSubtype=&quot;null&quot;\G\L![CDATA[$Now + 3d]]\G\L/ReportParameter\G\n  \L/SaveOutputParameters\G\n  \LCustomParameters /\G\n  \LComponentParameters /\G\n\L/ScheduledReport\G:S:</params1>
+      <scheduledId>9FPlE6YIBABCo1offqidZvA==</scheduledId>
+      <scheduledTaskOf>
+         <list>
+            <ref type="Report" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/Insights/CustomerName/Tenant 10010/CustomerName_10010_Insights" id="9FPlE6YIBABCo1offqidZvA=="/>
+         </list>
+      </scheduledTaskOf>
+      <scheduledTaskUser>1dOHbTIYBABCA2xMk1KQaVg==</scheduledTaskUser>
+      <schedulingStyle>1</schedulingStyle>
+      <startTime>1675839142000</startTime>
+      <time1>0</time1>
+      <time10>-1</time10>
+      <time11>-1</time11>
+      <time12>-1</time12>
+      <time13>-1</time13>
+      <time14>-1</time14>
+      <time15>-1</time15>
+      <time16>-1</time16>
+      <time17>-1</time17>
+      <time18>-1</time18>
+      <time19>-1</time19>
+      <time2>3600000</time2>
+      <time20>1702501200381</time20>
+      <time3>-1</time3>
+      <time4>-1</time4>
+      <time5>-1</time5>
+      <time6>-1</time6>
+      <time7>-1</time7>
+      <time8>-1</time8>
+      <time9>-1</time9>
+   </ScheduledTask>
+   <DatabaseTableSchema id="?tbT9H4kBABDicMzcb5iHBh==" name="Active List Tuple Schema" versionID="AAAAAPADPCJUXShC" action="insert" >
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Database Table Schemas/System Database Table Schemas/Active Lists/7.6.4.2772.0/Generic/fcdate-Date-k/tenantid-Double-k/adversary_origin-String-k/adversary_operations-String-k/impacted_asset-IPAddress-k/threat_name-String-k/adversary_asset-IPAddress-k/priority-Integer-k/ip_protocol-String-k/ip_service-String-k/date_month_of_year-Integer-k/date_hour_of_day-Integer-k/date_day_of_week-String-k/date_day_of_month-Integer-k/direction-String-k/dta-String/critical_infrastructure-String/raw_message-String/cydna_external_id-String/impacted_admin_country-String/impacted_ops_country-String/impacted_sector-String/impacted_entity-String/impacted_department-String/impacted_subnet-String/impacted_city-String/impacted_latitude-Double/impacted_longitude-Double/adversary_country-String/adversary_city-String/adversary_latitude-Double/adversary_longitude-Double/octets-Double/data_mb-Double/adversary_FQDN-String/impacted_FQDN-String/tenant_name-String/event_id-String/version-String/rule_name-String/rule_uri-String/H/" id="0tbT9H4kBABDih7q-0Xua5B=="/>
+         </list>
+      </childOf>
+      <hasDependant>
+         <list>
+            <ref type="ActiveList" uri="/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant_CustomerName_10010" id="Hlzk2U4kBABDTXTzkUZ0tTg=="/>
+         </list>
+      </hasDependant>
+      <tableColumnDescriptors>
+         <list>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>8</byteSize>
+               <columnDBName>fcdate</columnDBName>
+               <columnDisplayName>fcdate</columnDisplayName>
+               <columnName>fcdate</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Date</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>8</byteSize>
+               <columnDBName>tenantid</columnDBName>
+               <columnDisplayName>tenantid</columnDisplayName>
+               <columnName>tenantid</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Double</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>adversary_origin</columnDBName>
+               <columnDisplayName>adversary_origin</columnDisplayName>
+               <columnName>adversary_origin</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>adversary_operations</columnDBName>
+               <columnDisplayName>adversary_operations</columnDisplayName>
+               <columnName>adversary_operations</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>16</byteSize>
+               <columnDBName>impacted_asset</columnDBName>
+               <columnDisplayName>impacted_asset</columnDisplayName>
+               <columnName>impacted_asset</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>IPAddress</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>threat_name</columnDBName>
+               <columnDisplayName>threat_name</columnDisplayName>
+               <columnName>threat_name</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>16</byteSize>
+               <columnDBName>adversary_asset</columnDBName>
+               <columnDisplayName>adversary_asset</columnDisplayName>
+               <columnName>adversary_asset</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>IPAddress</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>4</byteSize>
+               <columnDBName>priority</columnDBName>
+               <columnDisplayName>priority</columnDisplayName>
+               <columnName>priority</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Integer</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>ip_protocol</columnDBName>
+               <columnDisplayName>ip_protocol</columnDisplayName>
+               <columnName>ip_protocol</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>ip_service</columnDBName>
+               <columnDisplayName>ip_service</columnDisplayName>
+               <columnName>ip_service</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>4</byteSize>
+               <columnDBName>date_month_of_year</columnDBName>
+               <columnDisplayName>date_month_of_year</columnDisplayName>
+               <columnName>date_month_of_year</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Integer</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>4</byteSize>
+               <columnDBName>date_hour_of_day</columnDBName>
+               <columnDisplayName>date_hour_of_day</columnDisplayName>
+               <columnName>date_hour_of_day</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Integer</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>date_day_of_week</columnDBName>
+               <columnDisplayName>date_day_of_week</columnDisplayName>
+               <columnName>date_day_of_week</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>4</byteSize>
+               <columnDBName>date_day_of_month</columnDBName>
+               <columnDisplayName>date_day_of_month</columnDisplayName>
+               <columnName>date_day_of_month</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Integer</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>direction</columnDBName>
+               <columnDisplayName>direction</columnDisplayName>
+               <columnName>direction</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>dta</columnDBName>
+               <columnDisplayName>dta</columnDisplayName>
+               <columnName>dta</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>critical_infrastructure</columnDBName>
+               <columnDisplayName>critical_infrastructure</columnDisplayName>
+               <columnName>critical_infrastructure</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>raw_message</columnDBName>
+               <columnDisplayName>raw_message</columnDisplayName>
+               <columnName>raw_message</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>cydna_external_id</columnDBName>
+               <columnDisplayName>cydna_external_id</columnDisplayName>
+               <columnName>cydna_external_id</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>impacted_admin_country</columnDBName>
+               <columnDisplayName>impacted_admin_country</columnDisplayName>
+               <columnName>impacted_admin_country</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>impacted_ops_country</columnDBName>
+               <columnDisplayName>impacted_ops_country</columnDisplayName>
+               <columnName>impacted_ops_country</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>impacted_sector</columnDBName>
+               <columnDisplayName>impacted_sector</columnDisplayName>
+               <columnName>impacted_sector</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>impacted_entity</columnDBName>
+               <columnDisplayName>impacted_entity</columnDisplayName>
+               <columnName>impacted_entity</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>impacted_department</columnDBName>
+               <columnDisplayName>impacted_department</columnDisplayName>
+               <columnName>impacted_department</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>impacted_subnet</columnDBName>
+               <columnDisplayName>impacted_subnet</columnDisplayName>
+               <columnName>impacted_subnet</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>impacted_city</columnDBName>
+               <columnDisplayName>impacted_city</columnDisplayName>
+               <columnName>impacted_city</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>8</byteSize>
+               <columnDBName>impacted_latitude</columnDBName>
+               <columnDisplayName>impacted_latitude</columnDisplayName>
+               <columnName>impacted_latitude</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Double</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>8</byteSize>
+               <columnDBName>impacted_longitude</columnDBName>
+               <columnDisplayName>impacted_longitude</columnDisplayName>
+               <columnName>impacted_longitude</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Double</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>adversary_country</columnDBName>
+               <columnDisplayName>adversary_country</columnDisplayName>
+               <columnName>adversary_country</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>adversary_city</columnDBName>
+               <columnDisplayName>adversary_city</columnDisplayName>
+               <columnName>adversary_city</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>8</byteSize>
+               <columnDBName>adversary_latitude</columnDBName>
+               <columnDisplayName>adversary_latitude</columnDisplayName>
+               <columnName>adversary_latitude</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Double</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>8</byteSize>
+               <columnDBName>adversary_longitude</columnDBName>
+               <columnDisplayName>adversary_longitude</columnDisplayName>
+               <columnName>adversary_longitude</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Double</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>8</byteSize>
+               <columnDBName>octets</columnDBName>
+               <columnDisplayName>octets</columnDisplayName>
+               <columnName>octets</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Double</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>8</byteSize>
+               <columnDBName>data_mb</columnDBName>
+               <columnDisplayName>data_mb</columnDisplayName>
+               <columnName>data_mb</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Double</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>adversary__f_q_d_n</columnDBName>
+               <columnDisplayName>adversary_FQDN</columnDisplayName>
+               <columnName>adversary_FQDN</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>impacted__f_q_d_n</columnDBName>
+               <columnDisplayName>impacted_FQDN</columnDisplayName>
+               <columnName>impacted_FQDN</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>tenant_name</columnDBName>
+               <columnDisplayName>tenant_name</columnDisplayName>
+               <columnName>tenant_name</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>event_id</columnDBName>
+               <columnDisplayName>event_id</columnDisplayName>
+               <columnName>event_id</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>version</columnDBName>
+               <columnDisplayName>version</columnDisplayName>
+               <columnName>version</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>rule_name</columnDBName>
+               <columnDisplayName>rule_name</columnDisplayName>
+               <columnName>rule_name</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>true</allowNull>
+               <byteSize>1000</byteSize>
+               <columnDBName>rule_uri</columnDBName>
+               <columnDisplayName>rule_uri</columnDisplayName>
+               <columnName>rule_uri</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>String</typeName>
+            </map>
+            <map>
+               <allowNull>false</allowNull>
+               <byteSize>8</byteSize>
+               <columnDBName>creation_time</columnDBName>
+               <columnDisplayName>Creation Time</columnDisplayName>
+               <columnName>creationTime</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Date</typeName>
+            </map>
+            <map>
+               <allowNull>false</allowNull>
+               <byteSize>8</byteSize>
+               <columnDBName>last_modified_time</columnDBName>
+               <columnDisplayName>Last Modified Time</columnDisplayName>
+               <columnName>lastModifiedTime</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Date</typeName>
+            </map>
+            <map>
+               <allowNull>false</allowNull>
+               <byteSize>4</byteSize>
+               <columnDBName>count</columnDBName>
+               <columnDisplayName>Count</columnDisplayName>
+               <columnName>count</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Integer</typeName>
+            </map>
+            <map>
+               <allowNull>false</allowNull>
+               <byteSize>8</byteSize>
+               <columnDBName>hash_code</columnDBName>
+               <columnDisplayName>Hashcode</columnDisplayName>
+               <columnName>hashCode</columnName>
+               <objectType>TableColumnDescriptor</objectType>
+               <typeName>Long</typeName>
+            </map>
+         </list>
+      </tableColumnDescriptors>
+      <tableIndexes>
+         <list>
+            <map>
+               <indexColumns>
+                  <list>
+                     <string>fcdate</string>
+                     <string>tenantid</string>
+                     <string>adversary_origin</string>
+                     <string>adversary_operations</string>
+                     <string>impacted_asset</string>
+                     <string>threat_name</string>
+                     <string>adversary_asset</string>
+                     <string>priority</string>
+                     <string>ip_protocol</string>
+                     <string>ip_service</string>
+                     <string>date_month_of_year</string>
+                     <string>date_hour_of_day</string>
+                     <string>date_day_of_week</string>
+                     <string>date_day_of_month</string>
+                     <string>direction</string>
+                  </list>
+               </indexColumns>
+               <indexName>main</indexName>
+               <isIndexUnique>N</isIndexUnique>
+               <objectType>TableIndex</objectType>
+            </map>
+            <map>
+               <indexColumns>
+                  <list>
+                     <string>hashCode</string>
+                  </list>
+               </indexColumns>
+               <indexName>hashIndex</indexName>
+               <isIndexUnique>N</isIndexUnique>
+               <objectType>TableIndex</objectType>
+            </map>
+            <map>
+               <indexColumns>
+                  <list>
+                     <string>creationTime</string>
+                  </list>
+               </indexColumns>
+               <indexName>CTimeIndex</indexName>
+               <isIndexUnique>N</isIndexUnique>
+               <objectType>TableIndex</objectType>
+            </map>
+            <map>
+               <indexColumns>
+                  <list>
+                     <string>lastModifiedTime</string>
+                  </list>
+               </indexColumns>
+               <indexName>LMTimeIndex</indexName>
+               <isIndexUnique>N</isIndexUnique>
+               <objectType>TableIndex</objectType>
+            </map>
+         </list>
+      </tableIndexes>
+      <tableNamePrefix>ARC_ALD_</tableNamePrefix>
+   </DatabaseTableSchema>
+   <ActiveList id="Hlzk2U4kBABDTXTzkUZ0tTg==" name="Tenant_CustomerName_10010" versionID="AAAAAr7Z2OgdoZdL" contentVersionID="AAAAAr7Z7KsdoZdM" action="insert" >
+      <cacheModel>1</cacheModel>
+      <capacity>1000000</capacity>
+      <caseSensitiveType>0</caseSensitiveType>
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/" id="0EDDYWYIBABCADXGioWHUPQ=="/>
+         </list>
+      </childOf>
+      <countLimit>0</countLimit>
+      <dependantOf>
+         <list>
+            <ref type="DatabaseTableSchema" uri="/All Database Table Schemas/System Database Table Schemas/Active Lists/7.6.4.2772.0/Generic/fcdate-Date-k/tenantid-Double-k/adversary_origin-String-k/adversary_operations-String-k/impacted_asset-IPAddress-k/threat_name-String-k/adversary_asset-IPAddress-k/priority-Integer-k/ip_protocol-String-k/ip_service-String-k/date_month_of_year-Integer-k/date_hour_of_day-Integer-k/date_day_of_week-String-k/date_day_of_month-Integer-k/direction-String-k/dta-String/critical_infrastructure-String/raw_message-String/cydna_external_id-String/impacted_admin_country-String/impacted_ops_country-String/impacted_sector-String/impacted_entity-String/impacted_department-String/impacted_subnet-String/impacted_city-String/impacted_latitude-Double/impacted_longitude-Double/adversary_country-String/adversary_city-String/adversary_latitude-Double/adversary_longitude-Double/octets-Double/data_mb-Double/adversary_FQDN-String/impacted_FQDN-String/tenant_name-String/event_id-String/version-String/rule_name-String/rule_uri-String/H/Active List Tuple Schema" id="?tbT9H4kBABDicMzcb5iHBh=="/>
+         </list>
+      </dependantOf>
+      <eventBound>false</eventBound>
+      <hasDependant>
+         <list>
+            <ref type="Query" uri="/All Queries/ArcSight Solutions/Galaxy cyDNA Insights/ZZ99.OUTPUTLIST/CustomerName_10010" id="[c1f8UokBABCJRBYdZdgryA=="/>
+            <ref type="Rule" uri="/All Rules/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant Reports/CustomerName 10010/cyDNA:CustomerName:10010:AID:SIGNALS" id="55nvPr4gBABD0MEO9bHR-Cg=="/>
+         </list>
+      </hasDependant>
+      <hashBased>false</hashBased>
+      <multiMap>false</multiMap>
+      <partialCache>false</partialCache>
+      <resourceBasedType>-1</resourceBasedType>
+      <tableID>7QLXXJ</tableID>
+      <timePartitioned>false</timePartitioned>
+      <ttl>432000000</ttl>
+      <wildcardColumns> </wildcardColumns>
+   </ActiveList>
+   <Query id="[c1f8UokBABCJRBYdZdgryA==" name="CustomerName_10010" versionID="AAAAAjIQ0M8NhOLA" action="insert" >
+      <arcSightQueryXML><![CDATA[<Queryable DataSourceType="RDB">
+  <Query TimeZone="Manager Time Zone">
+    <SelectClause MaxRows="10000" Distinct="No" CurrentID="43">
+      <SelectColumn ID="0">
+        <Variable Column="count" TableAlias="ActiveList" />
+        <ColumnAlias Name="Count" />
+      </SelectColumn>
+      <SelectColumn ID="1">
+        <Variable Column="adversary_FQDN" TableAlias="ActiveList" />
+        <ColumnAlias Name="adversary_FQDN" />
+      </SelectColumn>
+      <SelectColumn ID="2">
+        <Variable Column="adversary_asset" TableAlias="ActiveList" />
+        <ColumnAlias Name="adversary_asset" />
+      </SelectColumn>
+      <SelectColumn ID="3">
+        <Variable Column="adversary_city" TableAlias="ActiveList" />
+        <ColumnAlias Name="adversary_city" />
+      </SelectColumn>
+      <SelectColumn ID="40">
+        <Variable Column="adversary_latitude" TableAlias="ActiveList" />
+        <ColumnAlias Name="adversary_latitude" />
+      </SelectColumn>
+      <SelectColumn ID="41">
+        <Variable Column="adversary_country" TableAlias="ActiveList" />
+        <ColumnAlias Name="adversary_country" />
+      </SelectColumn>
+      <SelectColumn ID="6">
+        <Variable Column="adversary_longitude" TableAlias="ActiveList" />
+        <ColumnAlias Name="adversary_longitude" />
+      </SelectColumn>
+      <SelectColumn ID="7">
+        <Variable Column="adversary_operations" TableAlias="ActiveList" />
+        <ColumnAlias Name="adversary_operations" />
+      </SelectColumn>
+      <SelectColumn ID="8">
+        <Variable Column="adversary_origin" TableAlias="ActiveList" />
+        <ColumnAlias Name="adversary_origin" />
+      </SelectColumn>
+      <SelectColumn ID="10">
+        <Variable Column="cydna_external_id" TableAlias="ActiveList" />
+        <ColumnAlias Name="cydna_external_id" />
+      </SelectColumn>
+      <SelectColumn ID="9">
+        <Variable Column="critical_infrastructure" TableAlias="ActiveList" />
+        <ColumnAlias Name="critical_infrastructure" />
+      </SelectColumn>
+      <SelectColumn ID="11">
+        <Variable Column="data_mb" TableAlias="ActiveList" />
+        <ColumnAlias Name="data_mb" />
+      </SelectColumn>
+      <SelectColumn ID="12">
+        <Variable Column="date_day_of_month" TableAlias="ActiveList" />
+        <ColumnAlias Name="date_day_of_month" />
+      </SelectColumn>
+      <SelectColumn ID="13">
+        <Variable Column="date_day_of_week" TableAlias="ActiveList" />
+        <ColumnAlias Name="date_day_of_week" />
+      </SelectColumn>
+      <SelectColumn ID="14">
+        <Variable Column="date_hour_of_day" TableAlias="ActiveList" />
+        <ColumnAlias Name="date_hour_of_day" />
+      </SelectColumn>
+      <SelectColumn ID="15">
+        <Variable Column="date_month_of_year" TableAlias="ActiveList" />
+        <ColumnAlias Name="date_month_of_year" />
+      </SelectColumn>
+      <SelectColumn ID="16">
+        <Variable Column="direction" TableAlias="ActiveList" />
+        <ColumnAlias Name="direction" />
+      </SelectColumn>
+      <SelectColumn ID="17">
+        <Variable Column="dta" TableAlias="ActiveList" />
+        <ColumnAlias Name="dta" />
+      </SelectColumn>
+      <SelectColumn ID="18">
+        <Variable Column="threat_name" TableAlias="ActiveList" />
+        <ColumnAlias Name="threat_name" />
+      </SelectColumn>
+      <SelectColumn ID="19">
+        <Variable Column="tenantid" TableAlias="ActiveList" />
+        <ColumnAlias Name="tenantid" />
+      </SelectColumn>
+      <SelectColumn ID="20">
+        <Variable Column="tenant_name" TableAlias="ActiveList" />
+        <ColumnAlias Name="tenant_name" />
+      </SelectColumn>
+      <SelectColumn ID="21">
+        <Variable Column="raw_message" TableAlias="ActiveList" />
+        <ColumnAlias Name="raw_message" />
+      </SelectColumn>
+      <SelectColumn ID="22">
+        <Variable Column="priority" TableAlias="ActiveList" />
+        <ColumnAlias Name="priority" />
+      </SelectColumn>
+      <SelectColumn ID="23">
+        <Variable Column="octets" TableAlias="ActiveList" />
+        <ColumnAlias Name="octets" />
+      </SelectColumn>
+      <SelectColumn ID="24">
+        <Variable Column="ip_service" TableAlias="ActiveList" />
+        <ColumnAlias Name="ip_service" />
+      </SelectColumn>
+      <SelectColumn ID="25">
+        <Variable Column="ip_protocol" TableAlias="ActiveList" />
+        <ColumnAlias Name="ip_protocol" />
+      </SelectColumn>
+      <SelectColumn ID="26">
+        <Variable Column="impacted_subnet" TableAlias="ActiveList" />
+        <ColumnAlias Name="impacted_subnet" />
+      </SelectColumn>
+      <SelectColumn ID="27">
+        <Variable Column="impacted_sector" TableAlias="ActiveList" />
+        <ColumnAlias Name="impacted_sector" />
+      </SelectColumn>
+      <SelectColumn ID="28">
+        <Variable Column="impacted_ops_country" TableAlias="ActiveList" />
+        <ColumnAlias Name="impacted_ops_country" />
+      </SelectColumn>
+      <SelectColumn ID="29">
+        <Variable Column="impacted_longitude" TableAlias="ActiveList" />
+        <ColumnAlias Name="impacted_longitude" />
+      </SelectColumn>
+      <SelectColumn ID="30">
+        <Variable Column="impacted_latitude" TableAlias="ActiveList" />
+        <ColumnAlias Name="impacted_latitude" />
+      </SelectColumn>
+      <SelectColumn ID="31">
+        <Variable Column="impacted_entity" TableAlias="ActiveList" />
+        <ColumnAlias Name="impacted_entity" />
+      </SelectColumn>
+      <SelectColumn ID="32">
+        <Variable Column="impacted_department" TableAlias="ActiveList" />
+        <ColumnAlias Name="impacted_department" />
+      </SelectColumn>
+      <SelectColumn ID="33">
+        <Variable Column="impacted_city" TableAlias="ActiveList" />
+        <ColumnAlias Name="impacted_city" />
+      </SelectColumn>
+      <SelectColumn ID="34">
+        <Variable Column="impacted_asset" TableAlias="ActiveList" />
+        <ColumnAlias Name="impacted_asset" />
+      </SelectColumn>
+      <SelectColumn ID="35">
+        <Variable Column="impacted_admin_country" TableAlias="ActiveList" />
+        <ColumnAlias Name="impacted_admin_country" />
+      </SelectColumn>
+      <SelectColumn ID="36">
+        <Variable Column="impacted_FQDN" TableAlias="ActiveList" />
+        <ColumnAlias Name="impacted_FQDN" />
+      </SelectColumn>
+      <SelectColumn ID="37">
+        <Variable Column="fcdate" TableAlias="ActiveList" />
+        <ColumnAlias Name="fcdate" />
+      </SelectColumn>
+      <SelectColumn ID="38">
+        <Variable Column="event_id" TableAlias="ActiveList" />
+        <ColumnAlias Name="event_id" />
+      </SelectColumn>
+      <SelectColumn ID="39">
+        <Variable Column="version" TableAlias="ActiveList" />
+        <ColumnAlias Name="version" />
+      </SelectColumn>
+      <SelectColumn ID="42">
+        <Variable Column="rule_name" TableAlias="ActiveList" />
+        <ColumnAlias Name="rule_name" />
+      </SelectColumn>
+    </SelectClause>
+    <FromClause>
+      <Table Name="Tenant_CustomerName_10010" Alias="ActiveList">
+        <Resource ID="Hlzk2U4kBABDTXTzkUZ0tTg==" URI="/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant_CustomerName_10010" />
+      </Table>
+    </FromClause>
+    <WhereClause>
+      <Condition ConditionType="Positive" TableAlias="ActiveList">
+        <BasicCondition Operator="GT" JoinCondition="No" Negated="No" IgnoreCase="No" ListCompare="ANY">
+          <Variable Column="lastModifiedTime" TableAlias="ActiveList" />
+          <Value>$Now - 1h</Value>
+        </BasicCondition>
+      </Condition>
+    </WhereClause>
+    <HavingClause />
+  </Query>
+  <DependentVariables>
+    <BaseIntrospector Name="com.arcsight.common.activelist.ActiveList">
+      <Resource ID="Hlzk2U4kBABDTXTzkUZ0tTg==" URI="/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant_CustomerName_10010" />
+    </BaseIntrospector>
+  </DependentVariables>
+</Queryable>]]></arcSightQueryXML>
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Queries/ArcSight Solutions/Galaxy cyDNA Insights/ZZ99.OUTPUTLIST/" id="0HXdUW4IBABCAwLzL98bSTw=="/>
+         </list>
+      </childOf>
+      <dependantOf>
+         <list>
+            <ref type="ActiveList" uri="/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/ZZ99.OUTPUTLIST/Tenant_CustomerName_10010" id="Hlzk2U4kBABDTXTzkUZ0tTg=="/>
+         </list>
+      </dependantOf>
+      <hasDependant>
+         <list>
+            <ref type="Report" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/Insights/CustomerName/Tenant 10010/CustomerName_10010_Insights" id="9FPlE6YIBABCo1offqidZvA=="/>
+         </list>
+      </hasDependant>
+   </Query>
+   <Package id="_CgFXPokBABCBClCtScuTLg==" name="Tenant_Template" versionID="AAAAA5bVb9YdoZdH" action="insert" >
+      <arcsightVersion>7.6.0.2729.0</arcsightVersion>
+      <childOf>
+         <list>
+            <ref type="Group" uri="/All Packages/ArcSight Solutions/cyDNA/" id="0xNw9FIYBABCBFiWcx5lONA=="/>
+         </list>
+      </childOf>
+      <contentCreationTimestamp>1702503702200</contentCreationTimestamp>
+      <excludeIfNotIncluded>
+         <list>
+            <ref type="Group" uri="/All Zones/ArcSight Solutions/Galaxy cyDNA/01.WATCH TENANTS/" id="0E+a9+H4BABCAFdsqNh15xQ=="/>
+            <ref type="Group" uri="/All Active Channels/ArcSight System/" id="0NqfTGAwBABCFCmvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Filters/ArcSight System/" id="0gRTVGAwBABCFEGvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Rules/ArcSight System/" id="0tD-ZGAwBABCFKGvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Cases/All Cases/ArcSight System/" id="01000177717777777"/>
+            <ref type="Group" uri="/All Reports/ArcSight System/" id="0oD7YGAwBABCFImvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Report Templates/ArcSight System/" id="091rXGAwBABCFHWvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Active Lists/ArcSight System/" id="0vljVGAwBABCFEmvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Session Lists/ArcSight System/" id="0daweviIBABCB-As2LSom2g=="/>
+            <ref type="Group" uri="/All Locations/ArcSight System/" id="0CfwO1gIBABCANII9WqheeA=="/>
+            <ref type="Group" uri="/All Networks/ArcSight System/" id="0-wNaHAwBABCFUGvLDCwdyQ=="/>
+            <ref type="Group" uri="/All Use Cases/ArcSight System/" id="0ginoJBwBABCBQ9zGyPpFSA=="/>
+            <ref type="Group" uri="/All Integration Commands/ArcSight System/" id="0zSfr+BwBABCAV+47zFVb8A=="/>
+            <ref type="Group" uri="/All Integration Configurations/ArcSight System/" id="0QfLr+BwBABCAZe47zFVb8A=="/>
+            <ref type="Group" uri="/All Files/ArcSight System/" id="0QPCjtQgBABCAAc4up+JSww=="/>
+            <ref type="Group" uri="/All Permissions/ArcSight System/" id="0sf-hCBsBABCACT3ud2KZpg=="/>
+            <ref type="Group" uri="/All Patterns/ArcSight System/" id="01bfoCPPZ5554AA05GgsvkQQ=="/>
+            <ref type="Group" uri="/All Snapshots/ArcSight System/" id="0PjasYfkAABCAAfeuLhan4A=="/>
+            <ref type="Group" uri="/All Profiles/ArcSight System/" id="0op37Sv0AABCADRVjar0EYQ=="/>
+            <ref type="Group" uri="/All Field Sets/ArcSight System/Event Field Sets/" id="0wGbAAhoBABCAKuF-ouw6fw=="/>
+            <ref type="Group" uri="/All Field Sets/ArcSight System/Actor Field Sets/" id="0NGbAAhoBABCAKeF-ouw6fw=="/>
+            <ref type="Group" uri="/All Fields/ArcSight System/Actor Fields/" id="0SWXAAhoBABCAKOF-ouw6fw=="/>
+            <ref type="Group" uri="/All Fields/ArcSight System/Actor Variables/" id="0XrgtUSQBABCAHe0Yu+FE9Q=="/>
+         </list>
+      </excludeIfNotIncluded>
+      <excludeTypes>
+         <list>
+            <string>ActiveChannel</string>
+            <string>Actor</string>
+            <string>Asset</string>
+            <string>AssetRange</string>
+            <string>Case</string>
+            <string>CategoryModel</string>
+            <string>ConfigurationItem</string>
+            <string>Agent</string>
+            <string>Customer</string>
+            <string>Dashboard</string>
+            <string>DataMonitor</string>
+            <string>Destination</string>
+            <string>Drilldown</string>
+            <string>DrilldownList</string>
+            <string>Field</string>
+            <string>FieldSet</string>
+            <string>File</string>
+            <string>Filter</string>
+            <string>FocusedReport</string>
+            <string>Instrument</string>
+            <string>IntegrationCommand</string>
+            <string>IntegrationConfiguration</string>
+            <string>IntegrationTarget</string>
+            <string>KBase</string>
+            <string>Location</string>
+            <string>Network</string>
+            <string>Note</string>
+            <string>Partition</string>
+            <string>Pattern</string>
+            <string>Permission</string>
+            <string>Profile</string>
+            <string>QueryViewer</string>
+            <string>SavedSearch</string>
+            <string>ScannerReport</string>
+            <string>Search</string>
+            <string>QueryGroup</string>
+            <string>SessionList</string>
+            <string>Snapshot</string>
+            <string>Stage</string>
+            <string>Trend</string>
+            <string>UseCase</string>
+            <string>User</string>
+            <string>ViewerConfiguration</string>
+            <string>Vulnerability</string>
+            <string>Zone</string>
+         </list>
+      </excludeTypes>
+      <include>
+         <list>
+            <ref type="Group" uri="/All Active Lists/ArcSight Solutions/Galaxy cyDNA Output/" id="03pHHsIgBABCB32FOZhDtXQ=="/>
+            <ref type="Group" uri="/All Reports/ArcSight Solutions/Galaxy cyDNA Insights/" id="0pRmd54UBABCl2Puo9czGmg=="/>
+            <ref type="Group" uri="/All Queries/ArcSight Solutions/Galaxy cyDNA Insights/" id="02Aktr4gBABDvqNfaJZi8IQ=="/>
+            <ref type="Group" uri="/All Rules/ArcSight Solutions/Galaxy cyDNA Output/" id="0nBmd54UBABCl1cwfrmOkZQ=="/>
+            <ref type="Group" uri="/All Archived Reports/ArcSight Solutions/cyDNA/Insights/CustomerName/" id="0aIU9k4kBABCUHVb8cEqndw=="/>
+         </list>
+      </include>
+      <isExcludeReferenceIDs>false</isExcludeReferenceIDs>
+      <isObfuscated>false</isObfuscated>
+      <packageFormat>export</packageFormat>
+      <packageVersion>1.1.0.0</packageVersion>
+   </Package>
+</archive>
