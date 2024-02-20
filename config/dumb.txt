@@ -1,1 +1,1 @@
-dumb
+File for maintaining the config directory
